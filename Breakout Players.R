@@ -9,6 +9,8 @@ library(ggtext)
 setwd("~/Desktop")
 Sys.setenv("VROOM_CONNECTION_SIZE" = 2*131072)
 
+#SEE ARTICLE HERE: https://bestballstats.com/2022/11/13/predicting-nba-first-time-all-stars-in-2022-23/
+
 theme_bbs <- function() {
   font = 'Arial Unicode MS'
   bg = "#E4DBD7"
